@@ -192,7 +192,7 @@
     "cldr": "7.5.0",
     "cldrjs": "0.5.5",
     "conventional-changelog": "^6.0.0",
-    "fast-glob": "3.3.2",
+    "fast-glob": "3.3.3",
     "firebase-tools": "^13.0.0",
     "gsap": "^3.12.3",
     "gulp": "^5.0.0",
