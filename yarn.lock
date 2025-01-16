@@ -4750,7 +4750,6 @@
   integrity sha512-dyIGFKXfUFiwkMfNGn1+F6b80ZjR3uSYv1j6xVJSDlft5waZ2cwkHW4e7zNzvq7hiEackcgvBpmnXZrI1GltPg==
 
 "@types/selenium-webdriver@^4.1.21":
-  name "@types/selenium-webdriver4"
   version "4.1.23"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-4.1.23.tgz#05a2794927db661f075ab443d5504b679b32f7f7"
   integrity sha512-PgreEfCfafYLyTwvJTZvOspCq3JABnS51e+NSFFL5yoiMO7h04lWgLfr10NA7nl/yZbz4m76rBfOOdDfleb7pQ==
@@ -5797,9 +5796,11 @@ base64id@2.0.0, base64id@~2.0.0:
   integrity sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==
 
 basic-auth-connect@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/basic-auth-connect/-/basic-auth-connect-1.0.0.tgz#fdb0b43962ca7b40456a7c2bb48fe173da2d2122"
-  integrity sha512-kiV+/DTgVro4aZifY/hwRwALBISViL5NP4aReaR2EVJEObpbUBHIkdJh/YpcoEiYt7nBodZ6U2ajZeZvSxUCCg==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/basic-auth-connect/-/basic-auth-connect-1.1.0.tgz#b44af37d5b3bd7561b56491e58cf26ae1578f0c7"
+  integrity sha512-rKcWjfiRZ3p5WS9e5q6msXa07s6DaFAMXoyowV+mb2xQG+oYdw2QEUyKi0Xp95JvXzShlM+oGy5QuqSK6TfC1Q==
+  dependencies:
+    tsscmp "^1.0.6"
 
 basic-auth@^2.0.1, basic-auth@~2.0.1:
   version "2.0.1"
@@ -14408,7 +14409,6 @@ selenium-webdriver@3.6.0, selenium-webdriver@^3.0.1:
     xml2js "^0.4.17"
 
 selenium-webdriver@^4.18.1:
-  name selenium-webdriver4
   version "4.21.0"
   resolved "https://registry.yarnpkg.com/selenium-webdriver/-/selenium-webdriver-4.21.0.tgz#d38aebfc34770421a880afcfdb7bd8fe85ce9174"
   integrity sha512-WaEJHZjOWNth1QG5FEpxpREER0qptZBMonFU6GtAqdCNLJVxbtC3E7oS/I/+Q1sf1W032Wg0Ebk+m46lANOXyQ==
@@ -15129,7 +15129,16 @@ string-argv@~0.3.1:
   resolved "https://registry.yarnpkg.com/string-argv/-/string-argv-0.3.2.tgz#2b6d0ef24b656274d957d54e0a4bbf6153dc02b6"
   integrity sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.2, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.2, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -15198,7 +15207,7 @@ stringify-object@^3.2.1:
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -15211,6 +15220,13 @@ strip-ansi@^3.0.0:
   integrity sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg==
   dependencies:
     ansi-regex "^2.0.0"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
 
 strip-ansi@^7.0.1:
   version "7.1.0"
@@ -15737,6 +15753,11 @@ tslint@6.1.3:
     semver "^5.3.0"
     tslib "^1.13.0"
     tsutils "^2.29.0"
+
+tsscmp@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/tsscmp/-/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
+  integrity sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==
 
 tsutils@3.21.0, tsutils@^3.0.0, tsutils@^3.21.0:
   version "3.21.0"
@@ -16769,7 +16790,7 @@ wordwrap@^1.0.0:
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
   integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -16782,6 +16803,15 @@ wrap-ansi@^6.0.1, wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
