@@ -11,7 +11,7 @@
   "dependencies": {
     "@angular/common": "^19.2.16",
     "@angular/compiler": "^19.2.18",
-    "@angular/core": "^19.2.18",
+    "@angular/core": "^19.2.19",
     "@angular/forms": "^18.0.6",
     "@angular/platform-browser": "^18.0.6",
     "rxjs": "~7.8.2",
@@ -19,7 +19,7 @@
     "zone.js": "~0.16.0"
   },
   "devDependencies": {
-    "@angular/build": "^18.2.18",
+    "@angular/build": "^21.2.0",
     "@angular/cli": "^21.0.0",
     "@angular/compiler-cli": "^18.0.0",
     "typescript": "~5.5.3"
