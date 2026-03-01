@@ -8,7 +8,7 @@
     "@angular/common": "19.2.16",
     "@angular/compiler": "19.2.18",
     "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
-    "@angular/core": "19.2.18",
+    "@angular/core": "19.2.19",
     "@angular/elements": "file:../../dist/packages-dist/elements",
     "@angular/forms": "file:../../dist/packages-dist/forms",
     "@angular/localize": "19.0.6",
