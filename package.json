@@ -128,7 +128,7 @@
     "protractor": "^7.0.0",
     "reflect-metadata": "^0.2.0",
     "requirejs": "^2.3.7",
-    "rollup": "~2.79.2",
+    "rollup": "~2.80.0",
     "rollup-plugin-preserve-shebang": "^1.0.1",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rxjs": "^7.0.0",
@@ -216,7 +216,7 @@
     "tslint-eslint-rules": "5.4.0",
     "tslint-no-toplevel-property-access": "0.0.2",
     "typed-graphqlify": "^3.1.1",
-    "undici": "^7.5.0",
+    "undici": "^7.24.0",
     "vrsource-tslint-rules": "6.0.0"
   },
   "// 3": "Ensure that transitive dependencies on `https-proxy-agent` are at minimum v5 as older versions patch NodeJS directly, breaking tools like webdriver which is used by the karma-sauce-launcher as an example.",
