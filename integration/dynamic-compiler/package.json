@@ -33,7 +33,7 @@
     "@angular/core": "19.2.18",
     "@angular/platform-browser": "file:../../dist/packages-dist/platform-browser",
     "@angular/platform-browser-dynamic": "file:../../dist/packages-dist/platform-browser-dynamic",
-    "@angular/platform-server": "18.2.14",
+    "@angular/platform-server": "19.2.21",
     "rxjs": "file:../../node_modules/rxjs",
     "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
   }
