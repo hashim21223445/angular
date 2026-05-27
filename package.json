@@ -210,7 +210,7 @@
     "playwright-core": "^1.41.2",
     "prettier": "^3.0.0",
     "semver": "^7.6.3",
-    "tmp": "^0.2.5",
+    "tmp": "^0.2.6",
     "ts-node": "^10.9.1",
     "tsec": "0.2.9",
     "tslint-eslint-rules": "5.4.0",
