@@ -15,8 +15,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/common@file:../../dist/packages-dist/common":
-  version "18.1.0-next.1"
+"@angular/common@19.2.16":
+  version "19.2.16"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-19.2.16.tgz#2ce9c21b7f2181e6d6ab85c346ad6280ef83e23b"
+  integrity sha512-sugztO7XIiLRoVjn0WJK9ooBm9zejsqlE5k4ZGvy1zFafM8LMjFHwD4KymN8JB3AOb7Ad4lJHVq1IvwWnpqeWw==
   dependencies:
     tslib "^2.3.0"
 
@@ -32,13 +34,17 @@
     tslib "^2.3.0"
     yargs "^17.2.1"
 
-"@angular/compiler@file:../../dist/packages-dist/compiler":
-  version "18.1.0-next.1"
+"@angular/compiler@19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-19.2.18.tgz#c86f7126c9bd757bca180b2f98d0be57462bd162"
+  integrity sha512-3MscvODxRVxc3Cs0ZlHI5Pk5rEvE80otfvxZTMksOZuPlv1B+S8MjWfc3X3jk9SbyUEzODBEH55iCaBHD48V3g==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@file:../../dist/packages-dist/core":
-  version "18.1.0-next.1"
+"@angular/core@19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-19.2.18.tgz#50e561c20e98e5339ce351f207d6d7aeecf10f85"
+  integrity sha512-+QRrf0Igt8ccUWXHA+7doK5W6ODyhHdqVyblSlcQ8OciwkzIIGGEYNZom5OZyWMh+oI54lcSeyV2O3xaDepSrQ==
   dependencies:
     tslib "^2.3.0"
 
@@ -52,8 +58,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-server@file:../../dist/packages-dist/platform-server":
-  version "18.1.0-next.1"
+"@angular/platform-server@19.2.22":
+  version "19.2.22"
+  resolved "https://registry.yarnpkg.com/@angular/platform-server/-/platform-server-19.2.22.tgz#faa7831fb0308fd8c68ada62ded0a7d6892ff3d1"
+  integrity sha512-N9JqAE3bA3zxhsXpzlQehM4RjroD7xBKQrni+CzSMpMpp49bFChlgBfUs+QF5uIAhZPWMa9Db3aDCFzUNlMtYw==
   dependencies:
     tslib "^2.3.0"
     xhr2 "^0.2.0"
@@ -353,7 +361,12 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.5.tgz#a6ce3e556e00fd9895dd872dd172ad0d4bd687f4"
   integrity sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
 
-"@types/jasmine@*", "@types/jasmine@file:../../node_modules/@types/jasmine":
+"@types/jasmine@*":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-6.0.0.tgz#85dc83ea9bcb1d047486da447a6a0ebe241f589c"
+  integrity sha512-18lgGsLmEh3VJk9eZ5wAjTISxdqzl6YOwu8UdMpolajN57QOCNbl+AbHUd+Yu9ItrsFdB+c8LSZSGNg8nHaguw==
+
+"@types/jasmine@file:../../node_modules/@types/jasmine":
   version "5.1.4"
 
 "@types/jasminewd2@file:../../node_modules/@types/jasminewd2":
