@@ -9,7 +9,7 @@
   "dependencies": {
     "@angular/animations": "file:../../dist/packages-dist/animations",
     "@angular/common": "19.2.16",
-    "@angular/compiler": "19.2.18",
+    "@angular/compiler": "20.3.25",
     "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
     "@angular/core": "19.2.18",
     "@angular/forms": "file:../../dist/packages-dist/forms",
