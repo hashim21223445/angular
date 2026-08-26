@@ -15,8 +15,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/common@file:../../dist/packages-dist/common":
-  version "18.1.0-next.1"
+"@angular/common@20.3.25":
+  version "20.3.25"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-20.3.25.tgz#0f2bd058ec6595cfb4dd6a05601c41cb5cf3cb23"
+  integrity sha512-rnRGcXbjet0DHgkRL4Dqxk21G2T4UypVfiTV/fay58H8w9U89PJ1L6gRmk8B/uyfpii/9r23cBwnpcguQykxYw==
   dependencies:
     tslib "^2.3.0"
 
@@ -32,13 +34,17 @@
     tslib "^2.3.0"
     yargs "^17.2.1"
 
-"@angular/compiler@file:../../dist/packages-dist/compiler":
-  version "18.1.0-next.1"
+"@angular/compiler@19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-19.2.18.tgz#c86f7126c9bd757bca180b2f98d0be57462bd162"
+  integrity sha512-3MscvODxRVxc3Cs0ZlHI5Pk5rEvE80otfvxZTMksOZuPlv1B+S8MjWfc3X3jk9SbyUEzODBEH55iCaBHD48V3g==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@file:../../dist/packages-dist/core":
-  version "18.1.0-next.1"
+"@angular/core@19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-19.2.18.tgz#50e561c20e98e5339ce351f207d6d7aeecf10f85"
+  integrity sha512-+QRrf0Igt8ccUWXHA+7doK5W6ODyhHdqVyblSlcQ8OciwkzIIGGEYNZom5OZyWMh+oI54lcSeyV2O3xaDepSrQ==
   dependencies:
     tslib "^2.3.0"
 
@@ -62,8 +68,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-server@file:../../dist/packages-dist/platform-server":
-  version "18.1.0-next.1"
+"@angular/platform-server@18.2.14":
+  version "18.2.14"
+  resolved "https://registry.yarnpkg.com/@angular/platform-server/-/platform-server-18.2.14.tgz#25a948e61003a12697170e0bdde804b04c0e7d12"
+  integrity sha512-XUErL0mOPvua5EtlmSOFllSM+Ts1wHzNIv0WNV5FJxWI3Pe6Xxs29xneKDOImC9ErYWuQqK7sQ/hyIaHO5fhOw==
   dependencies:
     tslib "^2.3.0"
     xhr2 "^0.2.0"
