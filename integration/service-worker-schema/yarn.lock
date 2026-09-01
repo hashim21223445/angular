@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@angular/common@20.3.27":
-  version "20.3.27"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-20.3.27.tgz#52405b538e1e662b4b93a4176d6ff86fbb81f7e7"
-  integrity sha512-4ectYP60XatB9zZ40WlfmaTzjmEhaz8SSqLsbZI4VZ8gDb5qNmxWtwwt8UxS3NmDHEgqdNL8UPO4E94+yKCICg==
+"@angular/common@22.1.4":
+  version "22.1.4"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-22.1.4.tgz#76c1a1effe87f94cc69275c3df4bf339f0f59dba"
+  integrity sha512-UtWCloA/d0I5twV9Lu/Fcc7T6uQb40f/k0Hj5HLohIsiLTyvXVxWINBfa7LWWLtcq/0UOIY/yCs9Zq9Sj4dWqA==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@20.3.25":
-  version "20.3.25"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-20.3.25.tgz#4418a9625a8a152029b49158dbda01f1c83d19c0"
-  integrity sha512-B4XnnR5jzikZDvZ4PjwjAWZMT14dxrKrmJdwa/n0yp7rMPkIJTKF6ZJMg4d1pLWLLSsc2oWHioN3UrWlGqIKnA==
+"@angular/core@22.1.4":
+  version "22.1.4"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-22.1.4.tgz#b01d0e74065bc1d1f01ec052489cbd67fc00234f"
+  integrity sha512-0dW+lw8nHo6RGBUOXtjs02vjHIPJ8rEbw4fd0NH3Dii4p+gIB4ZaTw+o7Se3Nf4m1oZ8+2qAYmWVHXlfhKcCDg==
   dependencies:
     tslib "^2.3.0"
 
