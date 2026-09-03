@@ -10,8 +10,8 @@
   "private": true,
   "dependencies": {
     "@angular/common": "^22.0.5",
-    "@angular/compiler": "^19.2.18",
-    "@angular/core": "^19.2.18",
+    "@angular/compiler": "^22.1.5",
+    "@angular/core": "^22.1.5",
     "@angular/forms": "^22.0.5",
     "@angular/platform-browser": "^22.0.5",
     "rxjs": "~7.8.2",
@@ -19,9 +19,9 @@
     "zone.js": "~0.16.0"
   },
   "devDependencies": {
-    "@angular/build": "^18.2.18",
+    "@angular/build": "^22.1.7",
     "@angular/cli": "^21.2.18",
-    "@angular/compiler-cli": "^18.0.0",
+    "@angular/compiler-cli": "^22.1.5",
     "typescript": "~5.5.3"
   }
 }
