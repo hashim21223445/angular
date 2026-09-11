@@ -186,7 +186,7 @@
     "@types/jsdom": "^21.1.5",
     "@typescript/vfs": "^1.5.0",
     "@yarnpkg/lockfile": "^1.1.0",
-    "adm-zip": "^0.5.10",
+    "adm-zip": "^0.6.1",
     "angular-split": "^17.1.1",
     "check-side-effects": "0.0.23",
     "cldr": "7.5.0",
